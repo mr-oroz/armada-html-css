@@ -13,6 +13,7 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+
 }
 .box {
   background-color: #65256f;
@@ -147,4 +148,11 @@ button {
       align-items: center;
       flex-direction: column;
   }
+
+.display{
+  margin: 60px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
