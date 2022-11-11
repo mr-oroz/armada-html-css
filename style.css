@@ -66,3 +66,11 @@ button{
   height: 30px;
   margin: 17px;
 }
+.latter{
+display: inline-block;
+}
+.first,.second{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
