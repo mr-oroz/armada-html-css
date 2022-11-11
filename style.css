@@ -14,4 +14,13 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 150px;
+}
+.display{
+  width: auto;
+  height: 200px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  grid-gap: 20px;       
 }
