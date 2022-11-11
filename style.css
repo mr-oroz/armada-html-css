@@ -15,11 +15,9 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
-.containerour{
-  max-width: 1200px;
-  margin: 0 auto;
+.wrapper{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .our{
 width: 268px;
