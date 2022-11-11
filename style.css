@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Gilroy';
-  src: url('./fonts/Gilroy-Light.otf');
+  font-family: "Gilroy";
+  src: url("./fonts/Gilroy-Light.otf");
   font-weight: 400;
 }
 body {
@@ -15,4 +15,54 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
-
+.box {
+  background-color: #65256f;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+h1 {
+  color: #ffb700;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+h2 {
+  display: flex;
+  justify-content: end;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.inform {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-list ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 20px 30px;
+  display: inline-block;
+}
+button {
+  background-color: #65256f;
+  color: white;
+  height: 30px;
+  margin: 17px;
+}
